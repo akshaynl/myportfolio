@@ -1,0 +1,72 @@
+body
+{
+background-color:lightblue;
+}
+.q
+{
+ display:inline;
+ color:black;
+ padding:145px;
+ font-size:24px;
+ float:bottom;
+margin-bottom:40px;
+}
+#demo
+{
+margin-left:1100px;
+display:inline;
+}
+#demo1
+{
+display:inline;
+}
+#demo2
+{
+float:bottom;
+}
+div
+{
+color:blue;
+font-size:15px; 
+text-align:center;
+}
+div:hover
+{
+color:green;
+}
+.t
+{
+float:right;
+margin:20px 20px 20px 20px;
+}
+.desc
+{
+padding:15px;
+text-align:center;
+}
+a:visited
+{
+color:black;
+}
+a:hover
+{
+color:pink;
+}
+h1
+{
+font-size: 40px;
+font-family: fantasy;
+}
+h2
+{
+ font-size: 25px;
+ font-family: cursive;
+ font-style: oblique;
+ text-align:center;
+ color: burlywood;
+}
+.page
+{
+text-align:center;
+font-size:25px;
+}
