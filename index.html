@@ -1,0 +1,72 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css\style.css"> 
+</head>
+<p id="demo1"></p>
+<p id="demo"></p>
+<p id="demo2"></p>
+<script>
+var greeting;
+var time=new Date().getHours();
+if(time<12)
+{
+greeting="Good Morning";
+}
+else if(time<16)
+{
+greeting="Good Afternoon";
+}
+else
+{
+greeting="Good Evening";
+}
+document.getElementById("demo").innerHTML=greeting;
+var day;
+switch(new Date().getDay()){
+case 0:
+day="Sunday";
+break;
+case 1:
+day="Monday";
+break;
+case 2:
+day="Tuesday";
+break;
+case 3:
+day="Wednesday";
+break;
+case 4:
+day="Thrusday";
+break;
+case 5:
+day="Friday";
+break;
+case 6:
+day="Saturday";
+}
+document.getElementById("demo1").innerHTML=day;
+</script>
+<h1><center>My Portfolio</center></h1>
+<ul>
+<div class="navi">
+<li class="q"><a href="index.html">Index</a></li>
+<li class="q"><a href="aboutme.html">Aboutme</a></li>
+<li class="q"><a href="contactme.html">Contactme</a></li>
+
+
+</ul><br><br></div>
+
+<h2> Welcome to My Profile</h2>
+<p><div>Hi, this is Akshay</div></p>
+</p><div>completed B.E in jain institute of technology Davangere.</div><br><br>
+<center><img src="C:\Users\Lenovo User\Desktop\portfolio\images\pix.jpg"  width="400px" height="300px"></center>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="page">
+<a href="#">&laquo;</a>
+<a href="index.html">1</a>
+<a href="aboutme.html">2</a>
+<a href="contactMe.html">3</a>
+<a href="#">&raquo;</a>
+</body>
+</html>
